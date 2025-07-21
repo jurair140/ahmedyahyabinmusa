@@ -12787,6 +12787,105 @@ ul {
   width: 450px;
 }
 
+.card-decription{
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+        .float-bob-y {
+            animation: float-bob-y 3s infinite;
+        }
+        @keyframes float-bob-y {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+            100% { transform: translateY(0); }
+        }
+     
+        .thm-breadcrumb li {
+            margin: 0 5px;
+            font-size: 14px;
+            color: #fff;
+        }
+        .thm-breadcrumb li a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .thm-breadcrumb li a:hover {
+            text-decoration: underline;
+        }
+        /* Brands section styling */
+        .brands-showcase {
+            padding: 60px 0;
+            background: #f8f9fa;
+        }
+        .brands-showcase__top {
+            margin-bottom: 40px;
+        }
+        .section-title__tagline {
+            font-size: 16px;
+            color: #ff6b6b;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .section-title__title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #1a1a1a;
+            margin-bottom: 20px;
+        }
+        .brands-showcase__sec-title-text {
+            font-size: 18px;
+            color: #555;
+            max-width: 700px;
+            line-height: 1.6;
+        }
+        /* Grid layout for brand logos */
+        .brands-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .brand-item {
+            text-align: center;
+        }
+        .brand-logo {
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 10px;
+            border: 2px solid #e0e0e0;
+            padding: 15px;
+            background: #fff;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .brand-logo:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+        }
+        /* Responsive layout */
+        @media (max-width: 991px) {
+            .brands-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 767px) {
+            .brands-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 575px) {
+            .brands-grid {
+                grid-template-columns: 1fr;
+            }
+            .brand-logo {
+                width: 120px;
+                height: 120px;
+            }
+        }
+      
+   
+
 
 
 .error-section {
